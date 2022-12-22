@@ -1,0 +1,36 @@
+generalInformation:
+  serviceAdminEmail: a
+  gheUsername: kkanto
+  billingAccount: a
+  billingTeamName: a
+  gheToken: ""
+  adpAccessToken: ""
+jira:
+  adminToken: ""
+  projectKey: a
+  projectName: a
+  leadUsername: a
+projectInformation:
+  projectName: MavenReadme
+  projectShortName: MavenReadme
+  buildType: maven
+  testInstance: false
+  preprodInstance: false
+  uatInstance: false
+cloudService:
+  awsOrAzure: aks
+  deploymentLocation: azure_we1
+automationService:
+  jenkinsOrGithubActions: jenkins
+  jenkinsAdmin: a
+  jenkinsDeveloper: a
+  jenkinsKubernetesAccess: a
+  kvUserOrGroupName: a
+  nexusKubernetesAccess: a
+gheOrganization:
+  organizationName: kkanto
+  isNew: false
+testingTools:
+  sonarQube: false
+  adminGroup: ""
+  kubernetesAccess: ""
